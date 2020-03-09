@@ -7,6 +7,6 @@ spring:
 ---
 
 spring:
-    profiles: dev
+    profiles: test
     application:
         name: app-itmayiedu-member-test    
