@@ -9,4 +9,4 @@ spring:
 spring:
     profiles: test
     application:
-        name: app-itmayiedu-member-test    
+        name: app-itmayiedu-member-testssss    
