@@ -1,0 +1,9 @@
+zuul: 
+  profiles: dev
+  routes: 
+    api-a: 
+      path: /api-member/application
+      serviceId: app-itmayiedu-member
+    api-b: 
+      path: /api-order/application
+      serviceId: app-itmayiedu-order
