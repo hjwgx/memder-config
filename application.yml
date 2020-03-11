@@ -1,4 +1,8 @@
-spring:
-    profiles: test
-    application:
-        name: app-itmayiedu-member-dev
+zuul:
+  profiles: dev
+  routes:
+    api-a:
+      path: /api-member/**
+      serviceId: app-itmayiedu-member
+
+        
