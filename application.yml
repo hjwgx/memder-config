@@ -1,8 +1,0 @@
-zuul:
-  profiles: test
-  routes:
-    api-a:
-      path: /api-member/**
-      serviceId: app-itmayiedu-member
-
-        
