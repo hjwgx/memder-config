@@ -1,4 +1,4 @@
 spring:
-    profiles: dev
+    profiles: test
     application:
         name: app-itmayiedu-member-dev
