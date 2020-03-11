@@ -7,5 +7,6 @@ zuul:
       path: /api-order/*/**
       serviceId: app-itmayiedu-order
 spring:
-  application:
-    name: zull-gateway
+    profiles: dev
+    application:
+        name: app-itmayiedu-member-dev
