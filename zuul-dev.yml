@@ -5,6 +5,6 @@ zuul:
       path: /api-member/**
       serviceId: app-itmayiedu-member
     api-b: 
-      path: /api-order/*/**
+      path: /api-order/**
       serviceId: app-itmayiedu-order
 
