@@ -1,5 +1,5 @@
 zuul:
-  profiles: dev
+  profiles: test
   routes:
     api-a:
       path: /api-member/**
