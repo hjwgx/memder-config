@@ -2,7 +2,7 @@ zuul:
   profiles: dev
   routes: 
     api-a: 
-      path: /api-member/**
+      path: /api-member/*/*/**
       serviceId: app-itmayiedu-member
     api-b: 
       path: /api-order/**
